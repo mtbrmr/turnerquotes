@@ -3,6 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>Turner Quotes</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <style media="screen">
+      html, body {
+        font-family: arial, sans-serif;
+        color: white;
+      }
+
+      body {
+        background-image: url('./bg.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+
+      .quote {
+        margin: auto;
+        width: 60%;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 1;
+      }
+
+      .quote q {
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        display: block;
+      }
+
+      .quote p {
+        float: right;
+      }
+
+      button {
+        display: block;
+        position: absolute;
+        float: left;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        padding: 0;
+        margin: 10px 20px 10px 0;
+        text-align: center;
+        line-height: 50px;
+        color: #FFF;
+        border-radius: 5px;
+        transition: all 0.2s;
+        box-shadow: 0px 5px 0px 0px #2a96c5;
+        background-color: #30A9DE;
+        border: 0;
+        font-size: 14px;
+        z-index: 1;
+      }
+
+      button:hover {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 0px 0px #30A9DE;
+      }
+
+      button:focus {
+        outline: 0;
+      }
+
+      span.overlay {
+        position: absolute;
+        top: 0; bottom: 0; left: 0;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.4);
+        z-index: 0;
+      }
+    </style>
   </head>
   <body>
     <div class="quote">
@@ -10,6 +84,7 @@
       <p>- Jonny Turner</p>
     </div>
     <button type="button" name="button" id="newQuote">More wisdom</button>
+    <span class="overlay"></span>
   </body>
   <script type="text/javascript" src="./quotes.js"></script>
 </html>
