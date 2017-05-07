@@ -20,3 +20,4 @@ var generateQuote = function() {
 }
 
 window.onload = generateQuote;
+document.getElementById('newQuote').addEventListener('click', generateQuote);
