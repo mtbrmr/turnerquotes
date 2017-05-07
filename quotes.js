@@ -12,5 +12,11 @@ var quotes = [
   "We\'re not designing websites, we\'re designing emotions",
   "Just imagine it happening and it will happen",
   "We build houses for people; we don\'t live in them"
-
 ];
+
+var generateQuote = function() {
+  var rand = quotes[Math.floor(Math.random() * quotes.length)];
+  document.getElementById('wisdom').innerHTML = rand;
+}
+
+window.onload = generateQuote;
