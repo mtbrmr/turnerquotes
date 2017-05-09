@@ -11,7 +11,8 @@ var quotes = [
   "If you're given chips and beans every day, you're gonna eat chips and beans",
   "We\'re not designing websites, we\'re designing emotions",
   "Just imagine it happening and it will happen",
-  "We build houses for people; we don\'t live in them"
+  "We build houses for people; we don\'t live in them",
+  "We aim to please and we please to aim"
 ];
 
 var generateQuote = function() {
