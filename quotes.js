@@ -12,7 +12,8 @@ var quotes = [
   "We\'re not designing websites, we\'re designing emotions",
   "Just imagine it happening and it will happen",
   "We build houses for people; we don\'t live in them",
-  "We aim to please and we please to aim"
+  "We aim to please and we please to aim",
+  "Can\'t get rid of the disease, can\'t save the patient"
 ];
 
 var generateQuote = function() {
