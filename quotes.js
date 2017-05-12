@@ -13,7 +13,8 @@ var quotes = [
   "Just imagine it happening and it will happen",
   "We build houses for people; we don\'t live in them",
   "We aim to please and we please to aim",
-  "Can\'t get rid of the disease, can\'t save the patient"
+  "Of you can\'t get rid of the disease, get rid of the patient",
+  "Only give what people deserve"
 ];
 
 var generateQuote = function() {
