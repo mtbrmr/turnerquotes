@@ -14,7 +14,8 @@ var quotes = [
   "We build houses for people; we don\'t live in them",
   "We aim to please and we please to aim",
   "If you can\'t get rid of the disease, get rid of the patient",
-  "Only give what people deserve"
+  "Only give what people deserve",
+  "Just because you\'ve dodged a bullet doesn\'t mean they\'ve stopped firing at you"
 ];
 
 var generateQuote = function() {
