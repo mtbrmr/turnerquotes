@@ -15,7 +15,8 @@ var quotes = [
   "We aim to please and we please to aim",
   "If you can\'t get rid of the disease, get rid of the patient",
   "Only give what people deserve",
-  "Just because you\'ve dodged a bullet doesn\'t mean they\'ve stopped firing at you"
+  "Just because you\'ve dodged a bullet doesn\'t mean they\'ve stopped firing at you",
+  "Why would you run a marathon if you didn't know where the finish line was?"
 ];
 
 var generateQuote = function() {
