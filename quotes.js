@@ -16,7 +16,11 @@ var quotes = [
   "If you can\'t get rid of the disease, get rid of the patient",
   "Only give what people deserve",
   "Just because you\'ve dodged a bullet doesn\'t mean they\'ve stopped firing at you",
-  "Why would you run a marathon if you didn't know where the finish line was?"
+  "Why would you run a marathon if you didn't know where the finish line was?",
+  "Focus on the things you can change",
+  "Designed by champions, built by warriors",
+  "Why stick with a gun when you can have a tank?",
+  "There's winning and there's losing; if you don't win, you lose."
 ];
 
 var generateQuote = function() {
