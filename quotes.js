@@ -20,7 +20,14 @@ var quotes = [
   "Focus on the things you can change",
   "Designed by champions, built by warriors",
   "Why stick with a gun when you can have a tank?",
-  "There's winning and there's losing; if you don't win, you lose."
+  "There's winning and there's losing; if you don't win, you lose.",
+  "Today we're champions, tomorrow we're legends",
+  "Don't let your current situation get in the way of your dreams",
+  "Do blind pigeons find their way home?",
+  "Make every year count :)",
+  "You don't get things done by skirting around issues, you get things done by getting them done",
+  "You can't tell the players at Blackpool not to dream",
+  "Don't fear rejection"
 ];
 
 var generateQuote = function() {
