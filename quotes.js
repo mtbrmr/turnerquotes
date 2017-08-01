@@ -27,7 +27,19 @@ var quotes = [
   "Make every year count :)",
   "You don't get things done by skirting around issues, you get things done by getting them done",
   "You can't tell the players at Blackpool not to dream",
-  "Don't fear rejection"
+  "Don't fear rejection",
+  "What are you gonna do today that will change the rest of your life?",
+  "On the inside, I'm like a baby without candy",
+  "At the end of every piece of code, there's a human being",
+  "You are only what you believe",
+  "If you feel the world needs to hear it, please feel free... Just don't show the police...",
+  "Don't buy me a car, buy me success",
+  "You get up in the morning and you want to swim a length, but really, you're just treading water",
+  "Enemies are like snakes in the grass: you only see them when they come out to bite you",
+  "Look after your body and the mind will follow",
+  "Before you tackle the fish, you've got to clean the water",
+  "If you poke the bear, the bear ain't gonna like it",
+  "You can make as many cakes as you want, but if no-one's going to eat them, they're useless",
 ];
 
 var generateQuote = function() {
