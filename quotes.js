@@ -40,6 +40,10 @@ var quotes = [
   "Before you tackle the fish, you've got to clean the water",
   "If you poke the bear, the bear ain't gonna like it",
   "You can make as many cakes as you want, but if no-one's going to eat them, they're useless",
+  "We don't just make the world go round, we make it go round",
+  "All I know is all I know and the rest is a lie",
+  "Don't pretend tomorrow doesn't exist because you're stuck in the shit today",
+  "If you're gonna play a game, play it to win",
 ];
 
 var generateQuote = function() {
